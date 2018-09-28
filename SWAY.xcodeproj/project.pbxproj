@@ -22,12 +22,10 @@
 		6E8EB7F7215EC8AD0009FCF4 /* PPUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E3215EC8AC0009FCF4 /* PPUserService.swift */; };
 		6E8EB7F8215EC8AD0009FCF4 /* PPWebApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E4215EC8AC0009FCF4 /* PPWebApi.swift */; };
 		6E8EB7F9215EC8AD0009FCF4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E5215EC8AC0009FCF4 /* Utils.swift */; };
-		6E8EB7FA215EC8AD0009FCF4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E7215EC8AC0009FCF4 /* .gitignore */; };
-		6E8EB7FB215EC8AD0009FCF4 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E8215EC8AC0009FCF4 /* CHANGELOG.md */; };
-		6E8EB7FC215EC8AD0009FCF4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E9215EC8AC0009FCF4 /* LICENSE */; };
-		6E8EB7FD215EC8AD0009FCF4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7EA215EC8AC0009FCF4 /* README.md */; };
-		6E8EB7FE215EC8AD0009FCF4 /* studio.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7EC215EC8AC0009FCF4 /* studio.png */; };
-		D1DB4F6F686EE90C7F0A31C5 /* Pods_Swipeable_View_Stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */; };
+		6E8EB800215ECDD10009FCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */; };
+		6E8EB804215ECF1A0009FCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8EB803215ECF190009FCF4 /* Foundation.framework */; };
+		6E8EB808215ED0080009FCF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB807215ED0080009FCF4 /* Info.plist */; };
+		B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */; };
 		F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */; };
 		F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */; };
 		F7A387071F9BB6E400EF5B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A387061F9BB6E400EF5B45 /* AppDelegate.swift */; };
@@ -53,7 +51,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		213399D21E993FED619DBBE8 /* Pods-SWAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWAY/Pods-SWAY.debug.xcconfig"; sourceTree = "<group>"; };
 		37304D7E784FC84C5165D0E5 /* Pods-Swipeable-View-Stack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipeable-View-Stack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack.debug.xcconfig"; sourceTree = "<group>"; };
+		49C890C528E73B7C22D29096 /* Pods-SWAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAY.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWAY/Pods-SWAY.release.xcconfig"; sourceTree = "<group>"; };
 		5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipeable-View-Stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack.release.xcconfig"; sourceTree = "<group>"; };
 		6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView2.swift; sourceTree = "<group>"; };
 		6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView2.xib; sourceTree = "<group>"; };
@@ -70,11 +70,11 @@
 		6E8EB7E3215EC8AC0009FCF4 /* PPUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPUserService.swift; sourceTree = "<group>"; };
 		6E8EB7E4215EC8AC0009FCF4 /* PPWebApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPWebApi.swift; sourceTree = "<group>"; };
 		6E8EB7E5215EC8AC0009FCF4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		6E8EB7E7215EC8AC0009FCF4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		6E8EB7E8215EC8AC0009FCF4 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		6E8EB7E9215EC8AC0009FCF4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6E8EB7EA215EC8AC0009FCF4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6E8EB7EC215EC8AC0009FCF4 /* studio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = studio.png; sourceTree = "<group>"; };
+		6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6E8EB803215ECF190009FCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E8EB807215ED0080009FCF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Projects/sway/sway/Info.plist; sourceTree = "<group>"; };
+		6E8EB80A215ED5B00009FCF4 /* scribble box demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scribble box demo.ttf"; sourceTree = "<group>"; };
+		A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swipeable_View_Stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
 		F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView.xib; sourceTree = "<group>"; };
@@ -84,7 +84,6 @@
 		F7A3870B1F9BB6E400EF5B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A3870D1F9BB6E400EF5B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A387101F9BB6E400EF5B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7A387121F9BB6E400EF5B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A387181F9BB80100EF5B45 /* SwipeableCardViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewContainer.swift; sourceTree = "<group>"; };
 		F7A3871A1F9BB85100EF5B45 /* SwipeableCardViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardViewCard.swift; sourceTree = "<group>"; };
 		F7A3871C1F9BB87900EF5B45 /* SwipeableCardViewCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwipeableCardViewCard.xib; sourceTree = "<group>"; };
@@ -107,7 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1DB4F6F686EE90C7F0A31C5 /* Pods_Swipeable_View_Stack.framework in Frameworks */,
+				6E8EB804215ECF1A0009FCF4 /* Foundation.framework in Frameworks */,
+				B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,6 @@
 				6E8EB7DB215EC8AC0009FCF4 /* GameViewController.swift */,
 				6E8EB7DC215EC8AC0009FCF4 /* MenuVC.swift */,
 				6E8EB7DD215EC8AC0009FCF4 /* PlayPortal */,
-				6E8EB7E6215EC8AC0009FCF4 /* PPSDK-iOS-framework-master */,
 			);
 			path = sway_game;
 			sourceTree = "<group>";
@@ -143,30 +142,20 @@
 			path = PlayPortal;
 			sourceTree = "<group>";
 		};
-		6E8EB7E6215EC8AC0009FCF4 /* PPSDK-iOS-framework-master */ = {
+		6E8EB809215ED57A0009FCF4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6E8EB7E7215EC8AC0009FCF4 /* .gitignore */,
-				6E8EB7E8215EC8AC0009FCF4 /* CHANGELOG.md */,
-				6E8EB7E9215EC8AC0009FCF4 /* LICENSE */,
-				6E8EB7EA215EC8AC0009FCF4 /* README.md */,
-				6E8EB7EB215EC8AC0009FCF4 /* readmeAssets */,
+				6E8EB80A215ED5B00009FCF4 /* scribble box demo.ttf */,
 			);
-			path = "PPSDK-iOS-framework-master";
-			sourceTree = "<group>";
-		};
-		6E8EB7EB215EC8AC0009FCF4 /* readmeAssets */ = {
-			isa = PBXGroup;
-			children = (
-				6E8EB7EC215EC8AC0009FCF4 /* studio.png */,
-			);
-			path = readmeAssets;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BF70FC3528C4AD7795EE2E29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E8EB803215ECF190009FCF4 /* Foundation.framework */,
 				A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */,
+				A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,6 +165,8 @@
 			children = (
 				37304D7E784FC84C5165D0E5 /* Pods-Swipeable-View-Stack.debug.xcconfig */,
 				5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */,
+				213399D21E993FED619DBBE8 /* Pods-SWAY.debug.xcconfig */,
+				49C890C528E73B7C22D29096 /* Pods-SWAY.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -183,6 +174,8 @@
 		F7A386FA1F9BB6E400EF5B45 = {
 			isa = PBXGroup;
 			children = (
+				6E8EB809215ED57A0009FCF4 /* Resources */,
+				6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */,
 				6E8EB7D7215EC8AC0009FCF4 /* sway_game */,
 				F7A387051F9BB6E400EF5B45 /* SWAY-BASE */,
 				F7A387041F9BB6E400EF5B45 /* Products */,
@@ -226,7 +219,7 @@
 				F7A3870A1F9BB6E400EF5B45 /* Main.storyboard */,
 				F7A3870D1F9BB6E400EF5B45 /* Assets.xcassets */,
 				F7A3870F1F9BB6E400EF5B45 /* LaunchScreen.storyboard */,
-				F7A387121F9BB6E400EF5B45 /* Info.plist */,
+				6E8EB807215ED0080009FCF4 /* Info.plist */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";
@@ -294,17 +287,14 @@
 			files = (
 				F7FC2D071F9C355C00EEF1CE /* SampleSwipeableCard.xib in Resources */,
 				F7A387111F9BB6E400EF5B45 /* LaunchScreen.storyboard in Resources */,
-				6E8EB7FC215EC8AD0009FCF4 /* LICENSE in Resources */,
+				6E8EB808215ED0080009FCF4 /* Info.plist in Resources */,
 				F7A3871D1F9BB87900EF5B45 /* SwipeableCardViewCard.xib in Resources */,
 				6E8EB7ED215EC8AD0009FCF4 /* Actions.sks in Resources */,
-				6E8EB7FA215EC8AD0009FCF4 /* .gitignore in Resources */,
 				6E8EB7F2215EC8AD0009FCF4 /* Assets.xcassets in Resources */,
 				F7A3870E1F9BB6E400EF5B45 /* Assets.xcassets in Resources */,
-				6E8EB7FE215EC8AD0009FCF4 /* studio.png in Resources */,
-				6E8EB7FB215EC8AD0009FCF4 /* CHANGELOG.md in Resources */,
 				F7A3870C1F9BB6E400EF5B45 /* Main.storyboard in Resources */,
-				6E8EB7FD215EC8AD0009FCF4 /* README.md in Resources */,
 				6E239B5D215D63040038ABD5 /* StaticShadowHeaderView2.xib in Resources */,
+				6E8EB800215ECDD10009FCF4 /* Default-568h@2x.png in Resources */,
 				6E8EB7EE215EC8AD0009FCF4 /* GameScene.sks in Resources */,
 				F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */,
 			);
@@ -324,7 +314,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Swipeable-View-Stack-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SWAY-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,16 +327,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SWAY/Pods-SWAY-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWAY/Pods-SWAY-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -521,12 +515,12 @@
 		};
 		F7A387161F9BB6E400EF5B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37304D7E784FC84C5165D0E5 /* Pods-Swipeable-View-Stack.debug.xcconfig */;
+			baseConfigurationReference = 213399D21E993FED619DBBE8 /* Pods-SWAY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7C8L4Z946;
-				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Projects/sway/sway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phillfarrugia.Swipeable-View-Stack";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,12 +531,12 @@
 		};
 		F7A387171F9BB6E400EF5B45 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */;
+			baseConfigurationReference = 49C890C528E73B7C22D29096 /* Pods-SWAY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7C8L4Z946;
-				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Projects/sway/sway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.phillfarrugia.Swipeable-View-Stack";
 				PRODUCT_NAME = "$(TARGET_NAME)";

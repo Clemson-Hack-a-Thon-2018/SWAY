@@ -22,7 +22,7 @@ class GameScene: SKScene {
         print(self.view?.bounds.height ?? ball)
         
         enemy = self.childNode(withName: "enemy") as! SKSpriteNode
-        enemy.position.y = (self.frame.height / 2) - 80
+        enemy.position.y = (self.frame.height / 2) - 90
         
         main = self.childNode(withName: "main") as! SKSpriteNode
         main.position.y = (-self.frame.height / 2) + 50

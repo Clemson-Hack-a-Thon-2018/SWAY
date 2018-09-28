@@ -13,9 +13,7 @@ enum gameType {
 class MenuVC : UIViewController {
     
     
-    @IBAction func Player2(_ sender: Any) {
-        moveToGame(game: .player2)
-    }
+
     
     @IBAction func Easy(_ sender: Any) {
         moveToGame(game: .easy)
@@ -33,6 +31,6 @@ class MenuVC : UIViewController {
         
         currentGameType = game
 
-        self.navigationController?.pushViewController(gameVC, animated: true)
+        self.show(gameVC, sender: true)
     }
 }

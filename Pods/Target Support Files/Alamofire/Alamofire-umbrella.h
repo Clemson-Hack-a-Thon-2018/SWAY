@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Swipeable_View_StackVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Swipeable_View_StackVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 
