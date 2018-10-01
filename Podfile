@@ -9,5 +9,5 @@ target 'SWAY' do
   # Pods for SWAY
   pod 'pop', '1.0.10'
   pod 'Alamofire', '~> 4.7'
-  pod 'KeychainSwift', '~> 4.0'
+  pod 'KeychainSwift', '~> 12.0'
 end

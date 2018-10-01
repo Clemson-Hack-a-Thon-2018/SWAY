@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		6E239B5B215D5D490038ABD5 /* StaticShadowHeaderView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */; };
 		6E239B5D215D63040038ABD5 /* StaticShadowHeaderView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */; };
+		6E771FB6216265110074870E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FB5216265110074870E /* LoginViewController.swift */; };
+		6E771FB82162A3C00074870E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E771FB72162A3C00074870E /* SafariServices.framework */; };
+		6E771FBA2162A3CB0074870E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E771FB92162A3CB0074870E /* MobileCoreServices.framework */; };
+		6E771FBC2162A3D50074870E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E771FBB2162A3D50074870E /* WebKit.framework */; };
+		6E771FBE2162A3E20074870E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E771FBD2162A3E20074870E /* Security.framework */; };
+		6E771FC82162A56B0074870E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E771FC02162A56A0074870E /* Assets.xcassets */; };
+		6E771FC92162A56B0074870E /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC12162A56A0074870E /* KeychainWrapper.swift */; };
+		6E771FCA2162A56B0074870E /* PPDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC22162A56A0074870E /* PPDataService.swift */; };
+		6E771FCB2162A56B0074870E /* PPLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC32162A56A0074870E /* PPLoginButton.swift */; };
+		6E771FCC2162A56B0074870E /* PPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC42162A56A0074870E /* PPManager.swift */; };
+		6E771FCD2162A56B0074870E /* PPUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC52162A56A0074870E /* PPUserService.swift */; };
+		6E771FCE2162A56B0074870E /* PPWebApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC62162A56A0074870E /* PPWebApi.swift */; };
+		6E771FCF2162A56B0074870E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC72162A56A0074870E /* Utils.swift */; };
+		6E771FD12162A5F20074870E /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FD02162A5F20074870E /* profile.swift */; };
 		6E8EB7ED215EC8AD0009FCF4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7D8215EC8AC0009FCF4 /* Actions.sks */; };
 		6E8EB7EE215EC8AD0009FCF4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7D9215EC8AC0009FCF4 /* GameScene.sks */; };
 		6E8EB7EF215EC8AD0009FCF4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DA215EC8AC0009FCF4 /* GameScene.swift */; };
 		6E8EB7F0215EC8AD0009FCF4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DB215EC8AC0009FCF4 /* GameViewController.swift */; };
 		6E8EB7F1215EC8AD0009FCF4 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DC215EC8AC0009FCF4 /* MenuVC.swift */; };
-		6E8EB7F2215EC8AD0009FCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DE215EC8AC0009FCF4 /* Assets.xcassets */; };
-		6E8EB7F3215EC8AD0009FCF4 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DF215EC8AC0009FCF4 /* KeychainWrapper.swift */; };
-		6E8EB7F4215EC8AD0009FCF4 /* PPDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E0215EC8AC0009FCF4 /* PPDataService.swift */; };
-		6E8EB7F5215EC8AD0009FCF4 /* PPLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E1215EC8AC0009FCF4 /* PPLoginButton.swift */; };
-		6E8EB7F6215EC8AD0009FCF4 /* PPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E2215EC8AC0009FCF4 /* PPManager.swift */; };
-		6E8EB7F7215EC8AD0009FCF4 /* PPUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E3215EC8AC0009FCF4 /* PPUserService.swift */; };
-		6E8EB7F8215EC8AD0009FCF4 /* PPWebApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E4215EC8AC0009FCF4 /* PPWebApi.swift */; };
-		6E8EB7F9215EC8AD0009FCF4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7E5215EC8AC0009FCF4 /* Utils.swift */; };
 		6E8EB800215ECDD10009FCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */; };
 		6E8EB804215ECF1A0009FCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8EB803215ECF190009FCF4 /* Foundation.framework */; };
 		6E8EB808215ED0080009FCF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB807215ED0080009FCF4 /* Info.plist */; };
@@ -57,19 +63,26 @@
 		5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipeable-View-Stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack.release.xcconfig"; sourceTree = "<group>"; };
 		6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView2.swift; sourceTree = "<group>"; };
 		6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView2.xib; sourceTree = "<group>"; };
+		6E771FB5216265110074870E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E771FB72162A3C00074870E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6E771FB92162A3CB0074870E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6E771FBB2162A3D50074870E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6E771FBD2162A3E20074870E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6E771FC02162A56A0074870E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E771FC12162A56A0074870E /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		6E771FC22162A56A0074870E /* PPDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPDataService.swift; sourceTree = "<group>"; };
+		6E771FC32162A56A0074870E /* PPLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPLoginButton.swift; sourceTree = "<group>"; };
+		6E771FC42162A56A0074870E /* PPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPManager.swift; sourceTree = "<group>"; };
+		6E771FC52162A56A0074870E /* PPUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPUserService.swift; sourceTree = "<group>"; };
+		6E771FC62162A56A0074870E /* PPWebApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPWebApi.swift; sourceTree = "<group>"; };
+		6E771FC72162A56A0074870E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6E771FD02162A5F20074870E /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		6E771FD22162A8600074870E /* SWAY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SWAY.entitlements; sourceTree = "<group>"; };
 		6E8EB7D8215EC8AC0009FCF4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		6E8EB7D9215EC8AC0009FCF4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		6E8EB7DA215EC8AC0009FCF4 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6E8EB7DB215EC8AC0009FCF4 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		6E8EB7DC215EC8AC0009FCF4 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
-		6E8EB7DE215EC8AC0009FCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E8EB7DF215EC8AC0009FCF4 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
-		6E8EB7E0215EC8AC0009FCF4 /* PPDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPDataService.swift; sourceTree = "<group>"; };
-		6E8EB7E1215EC8AC0009FCF4 /* PPLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPLoginButton.swift; sourceTree = "<group>"; };
-		6E8EB7E2215EC8AC0009FCF4 /* PPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPManager.swift; sourceTree = "<group>"; };
-		6E8EB7E3215EC8AC0009FCF4 /* PPUserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPUserService.swift; sourceTree = "<group>"; };
-		6E8EB7E4215EC8AC0009FCF4 /* PPWebApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPWebApi.swift; sourceTree = "<group>"; };
-		6E8EB7E5215EC8AC0009FCF4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6E8EB803215ECF190009FCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E8EB807215ED0080009FCF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Projects/sway/sway/Info.plist; sourceTree = "<group>"; };
@@ -106,6 +119,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E771FBE2162A3E20074870E /* Security.framework in Frameworks */,
+				6E771FBC2162A3D50074870E /* WebKit.framework in Frameworks */,
+				6E771FBA2162A3CB0074870E /* MobileCoreServices.framework in Frameworks */,
+				6E771FB82162A3C00074870E /* SafariServices.framework in Frameworks */,
 				6E8EB804215ECF1A0009FCF4 /* Foundation.framework in Frameworks */,
 				B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */,
 			);
@@ -114,6 +131,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E771FBF2162A56A0074870E /* PlayPortal */ = {
+			isa = PBXGroup;
+			children = (
+				6E771FC02162A56A0074870E /* Assets.xcassets */,
+				6E771FC12162A56A0074870E /* KeychainWrapper.swift */,
+				6E771FC22162A56A0074870E /* PPDataService.swift */,
+				6E771FC32162A56A0074870E /* PPLoginButton.swift */,
+				6E771FC42162A56A0074870E /* PPManager.swift */,
+				6E771FC52162A56A0074870E /* PPUserService.swift */,
+				6E771FC62162A56A0074870E /* PPWebApi.swift */,
+				6E771FC72162A56A0074870E /* Utils.swift */,
+			);
+			name = PlayPortal;
+			path = "../../Helloworld-swift-simple-master 3/PlayPortal";
+			sourceTree = "<group>";
+		};
 		6E8EB7D7215EC8AC0009FCF4 /* sway_game */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,24 +155,9 @@
 				6E8EB7DA215EC8AC0009FCF4 /* GameScene.swift */,
 				6E8EB7DB215EC8AC0009FCF4 /* GameViewController.swift */,
 				6E8EB7DC215EC8AC0009FCF4 /* MenuVC.swift */,
-				6E8EB7DD215EC8AC0009FCF4 /* PlayPortal */,
+				6E771FBF2162A56A0074870E /* PlayPortal */,
 			);
 			path = sway_game;
-			sourceTree = "<group>";
-		};
-		6E8EB7DD215EC8AC0009FCF4 /* PlayPortal */ = {
-			isa = PBXGroup;
-			children = (
-				6E8EB7DE215EC8AC0009FCF4 /* Assets.xcassets */,
-				6E8EB7DF215EC8AC0009FCF4 /* KeychainWrapper.swift */,
-				6E8EB7E0215EC8AC0009FCF4 /* PPDataService.swift */,
-				6E8EB7E1215EC8AC0009FCF4 /* PPLoginButton.swift */,
-				6E8EB7E2215EC8AC0009FCF4 /* PPManager.swift */,
-				6E8EB7E3215EC8AC0009FCF4 /* PPUserService.swift */,
-				6E8EB7E4215EC8AC0009FCF4 /* PPWebApi.swift */,
-				6E8EB7E5215EC8AC0009FCF4 /* Utils.swift */,
-			);
-			path = PlayPortal;
 			sourceTree = "<group>";
 		};
 		6E8EB809215ED57A0009FCF4 /* Resources */ = {
@@ -153,6 +171,10 @@
 		BF70FC3528C4AD7795EE2E29 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E771FBD2162A3E20074870E /* Security.framework */,
+				6E771FBB2162A3D50074870E /* WebKit.framework */,
+				6E771FB92162A3CB0074870E /* MobileCoreServices.framework */,
+				6E771FB72162A3C00074870E /* SafariServices.framework */,
 				6E8EB803215ECF190009FCF4 /* Foundation.framework */,
 				A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */,
 				A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */,
@@ -174,6 +196,7 @@
 		F7A386FA1F9BB6E400EF5B45 = {
 			isa = PBXGroup;
 			children = (
+				6E771FD22162A8600074870E /* SWAY.entitlements */,
 				6E8EB809215ED57A0009FCF4 /* Resources */,
 				6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */,
 				6E8EB7D7215EC8AC0009FCF4 /* sway_game */,
@@ -220,6 +243,8 @@
 				F7A3870D1F9BB6E400EF5B45 /* Assets.xcassets */,
 				F7A3870F1F9BB6E400EF5B45 /* LaunchScreen.storyboard */,
 				6E8EB807215ED0080009FCF4 /* Info.plist */,
+				6E771FB5216265110074870E /* LoginViewController.swift */,
+				6E771FD02162A5F20074870E /* profile.swift */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";
@@ -259,6 +284,14 @@
 					F7A387021F9BB6E400EF5B45 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -290,12 +323,12 @@
 				6E8EB808215ED0080009FCF4 /* Info.plist in Resources */,
 				F7A3871D1F9BB87900EF5B45 /* SwipeableCardViewCard.xib in Resources */,
 				6E8EB7ED215EC8AD0009FCF4 /* Actions.sks in Resources */,
-				6E8EB7F2215EC8AD0009FCF4 /* Assets.xcassets in Resources */,
 				F7A3870E1F9BB6E400EF5B45 /* Assets.xcassets in Resources */,
 				F7A3870C1F9BB6E400EF5B45 /* Main.storyboard in Resources */,
 				6E239B5D215D63040038ABD5 /* StaticShadowHeaderView2.xib in Resources */,
 				6E8EB800215ECDD10009FCF4 /* Default-568h@2x.png in Resources */,
 				6E8EB7EE215EC8AD0009FCF4 /* GameScene.sks in Resources */,
+				6E771FC82162A56B0074870E /* Assets.xcassets in Resources */,
 				F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,29 +383,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E771FB6216265110074870E /* LoginViewController.swift in Sources */,
 				F7FC2D091F9C38F800EEF1CE /* SampleSwipeableCellViewModel.swift in Sources */,
+				6E771FCD2162A56B0074870E /* PPUserService.swift in Sources */,
+				6E771FCF2162A56B0074870E /* Utils.swift in Sources */,
 				F7FC2CFB1F9BDB1400EEF1CE /* CGPoint+SwipeableAdditions.swift in Sources */,
-				6E8EB7F9215EC8AD0009FCF4 /* Utils.swift in Sources */,
+				6E771FC92162A56B0074870E /* KeychainWrapper.swift in Sources */,
 				6E239B5B215D5D490038ABD5 /* StaticShadowHeaderView2.swift in Sources */,
-				6E8EB7F7215EC8AD0009FCF4 /* PPUserService.swift in Sources */,
-				6E8EB7F3215EC8AD0009FCF4 /* KeychainWrapper.swift in Sources */,
 				F7A387091F9BB6E400EF5B45 /* ViewController.swift in Sources */,
-				6E8EB7F6215EC8AD0009FCF4 /* PPManager.swift in Sources */,
 				F7FC2CFD1F9C06A500EEF1CE /* CGRect+SwipeAdditions.swift in Sources */,
+				6E771FCA2162A56B0074870E /* PPDataService.swift in Sources */,
 				F7A3871B1F9BB85100EF5B45 /* SwipeableCardViewCard.swift in Sources */,
 				F7FC2D031F9C144300EEF1CE /* SwipeableCardViewDelegate.swift in Sources */,
 				F7FC2D011F9C132F00EEF1CE /* SwipeableViewDelegate.swift in Sources */,
 				6E8EB7F0215EC8AD0009FCF4 /* GameViewController.swift in Sources */,
 				6E8EB7F1215EC8AD0009FCF4 /* MenuVC.swift in Sources */,
-				6E8EB7F4215EC8AD0009FCF4 /* PPDataService.swift in Sources */,
-				6E8EB7F5215EC8AD0009FCF4 /* PPLoginButton.swift in Sources */,
 				F7FC2D051F9C355300EEF1CE /* SampleSwipeableCard.swift in Sources */,
 				F7A387191F9BB80100EF5B45 /* SwipeableCardViewContainer.swift in Sources */,
 				F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */,
 				F7A387211F9BB8FB00EF5B45 /* UIView+Constraints.swift in Sources */,
 				6E8EB7EF215EC8AD0009FCF4 /* GameScene.swift in Sources */,
 				F7A387071F9BB6E400EF5B45 /* AppDelegate.swift in Sources */,
-				6E8EB7F8215EC8AD0009FCF4 /* PPWebApi.swift in Sources */,
+				6E771FD12162A5F20074870E /* profile.swift in Sources */,
+				6E771FCC2162A56B0074870E /* PPManager.swift in Sources */,
+				6E771FCB2162A56B0074870E /* PPLoginButton.swift in Sources */,
+				6E771FCE2162A56B0074870E /* PPWebApi.swift in Sources */,
 				F7FC2CF71F9BC94400EEF1CE /* SwipeableView.swift in Sources */,
 				F7FC2CF91F9BD6D800EEF1CE /* SwipeDirection.swift in Sources */,
 				F7A387231F9BB93400EF5B45 /* SwipeableCardViewDataSource.swift in Sources */,
@@ -518,11 +553,12 @@
 			baseConfigurationReference = 213399D21E993FED619DBBE8 /* Pods-SWAY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SWAY.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7C8L4Z946;
 				INFOPLIST_FILE = "$(SRCROOT)/../Projects/sway/sway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phillfarrugia.Swipeable-View-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.therisecollection.sway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,11 +570,12 @@
 			baseConfigurationReference = 49C890C528E73B7C22D29096 /* Pods-SWAY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SWAY.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M7C8L4Z946;
 				INFOPLIST_FILE = "$(SRCROOT)/../Projects/sway/sway/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phillfarrugia.Swipeable-View-Stack";
+				PRODUCT_BUNDLE_IDENTIFIER = com.therisecollection.sway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

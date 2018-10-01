@@ -22,14 +22,14 @@ class GameScene: SKScene {
         print(self.view?.bounds.height ?? ball)
         
         enemy = self.childNode(withName: "enemy") as! SKSpriteNode
-        enemy.position.y = (self.frame.height / 2) - 90
+        enemy.position.y = (self.frame.height / 2) - 50
         
         main = self.childNode(withName: "main") as! SKSpriteNode
         main.position.y = (-self.frame.height / 2) + 50
         
         let border  = SKPhysicsBody(edgeLoopFrom: self.frame)
         
-        border.friction = 0
+        border.friction = 3
         border.restitution = 1
         
         self.physicsBody = border
