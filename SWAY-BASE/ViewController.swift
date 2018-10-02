@@ -6,12 +6,11 @@ class ViewController: UIViewController, SwipeableCardViewDataSource {
     
 
 
-    @IBOutlet private weak var swipeableCardView: SwipeableCardViewContainer!
-
+    @IBOutlet weak var swipeableCardView: SwipeableCardViewContainer?
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        swipeableCardView.dataSource = self
+        swipeableCardView?.dataSource = self
     }
 
 }

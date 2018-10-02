@@ -38,7 +38,7 @@ import UIKit
             }
             
         } else {
-            /*
+            
             guard let rvc:UIViewController = UIApplication.shared.keyWindow?.rootViewController else {
                 return
             }
@@ -51,7 +51,7 @@ import UIKit
             if let cvc = getCurrentViewController(rvc) {
                 cvc.present(vc, animated:true, completion:nil)
             }
-            */
+            
         }
         
         func viewDidLoad() {
