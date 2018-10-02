@@ -23,6 +23,8 @@
 		6E771FCE2162A56B0074870E /* PPWebApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC62162A56A0074870E /* PPWebApi.swift */; };
 		6E771FCF2162A56B0074870E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FC72162A56A0074870E /* Utils.swift */; };
 		6E771FD12162A5F20074870E /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E771FD02162A5F20074870E /* profile.swift */; };
+		6E82DEF62163B9CD0076A4CE /* StaticShadowHeaderView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E82DEF52163B9CD0076A4CE /* StaticShadowHeaderView3.swift */; };
+		6E82DEF82163BA190076A4CE /* StaticShadowHeaderView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E82DEF72163BA190076A4CE /* StaticShadowHeaderView3.xib */; };
 		6E8EB7ED215EC8AD0009FCF4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7D8215EC8AC0009FCF4 /* Actions.sks */; };
 		6E8EB7EE215EC8AD0009FCF4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7D9215EC8AC0009FCF4 /* GameScene.sks */; };
 		6E8EB7EF215EC8AD0009FCF4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EB7DA215EC8AC0009FCF4 /* GameScene.swift */; };
@@ -78,6 +80,8 @@
 		6E771FC72162A56A0074870E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6E771FD02162A5F20074870E /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 		6E771FD22162A8600074870E /* SWAY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SWAY.entitlements; sourceTree = "<group>"; };
+		6E82DEF52163B9CD0076A4CE /* StaticShadowHeaderView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView3.swift; sourceTree = "<group>"; };
+		6E82DEF72163BA190076A4CE /* StaticShadowHeaderView3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView3.xib; sourceTree = "<group>"; };
 		6E8EB7D8215EC8AC0009FCF4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		6E8EB7D9215EC8AC0009FCF4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		6E8EB7DA215EC8AC0009FCF4 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -237,8 +241,10 @@
 				F7FC2D081F9C38F800EEF1CE /* SampleSwipeableCellViewModel.swift */,
 				F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */,
 				6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */,
+				6E82DEF52163B9CD0076A4CE /* StaticShadowHeaderView3.swift */,
 				F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */,
 				6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */,
+				6E82DEF72163BA190076A4CE /* StaticShadowHeaderView3.xib */,
 				F7A3870A1F9BB6E400EF5B45 /* Main.storyboard */,
 				F7A3870D1F9BB6E400EF5B45 /* Assets.xcassets */,
 				F7A3870F1F9BB6E400EF5B45 /* LaunchScreen.storyboard */,
@@ -330,6 +336,7 @@
 				6E8EB7EE215EC8AD0009FCF4 /* GameScene.sks in Resources */,
 				6E771FC82162A56B0074870E /* Assets.xcassets in Resources */,
 				F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */,
+				6E82DEF82163BA190076A4CE /* StaticShadowHeaderView3.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +401,7 @@
 				F7FC2CFD1F9C06A500EEF1CE /* CGRect+SwipeAdditions.swift in Sources */,
 				6E771FCA2162A56B0074870E /* PPDataService.swift in Sources */,
 				F7A3871B1F9BB85100EF5B45 /* SwipeableCardViewCard.swift in Sources */,
+				6E82DEF62163B9CD0076A4CE /* StaticShadowHeaderView3.swift in Sources */,
 				F7FC2D031F9C144300EEF1CE /* SwipeableCardViewDelegate.swift in Sources */,
 				F7FC2D011F9C132F00EEF1CE /* SwipeableViewDelegate.swift in Sources */,
 				6E8EB7F0215EC8AD0009FCF4 /* GameViewController.swift in Sources */,
