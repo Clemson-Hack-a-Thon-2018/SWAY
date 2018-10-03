@@ -12,5 +12,17 @@ import UIKit
 class Profile : ViewController {
     var user:PPUserObject? = nil;
     
- 
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // name label
+        
+         nameLabel.text = (self.user?.get(key:"firstName"))! + " " + (self.user?.get(key: "lastName"))!
+        
+         nameLabel.adjustsFontSizeToFitWidth = true
+        
+        
+    }
 }
