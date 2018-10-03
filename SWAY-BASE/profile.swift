@@ -20,6 +20,18 @@ class Profile : ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        /*
+        // Logout
+        
+        
+        @IBAction func logout(_ sender: Any) {
+            //    func logoutTapped() {
+            PPManager.sharedInstance.logout()
+            //        self.dismiss(animated: true, completion: nil)
+        }
+        */
+        
         // name label
     
         nameLabel?.text = (self.user?.get(key:"firstName"))! + " " + (self.user?.get(key: "lastName"))!
