@@ -5,6 +5,7 @@ import CoreMotion
 
 class StaticShadowHeaderView3: UIView, NibView {
     
+  
     
     @IBOutlet var backgroundContainerView: UIView?
     
