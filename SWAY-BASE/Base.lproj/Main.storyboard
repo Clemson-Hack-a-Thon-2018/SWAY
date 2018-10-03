@@ -236,7 +236,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HANDLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibI-jG-fUG">
-                                <rect key="frame" x="156" y="311" width="61" height="18"/>
+                                <rect key="frame" x="152" y="311" width="61" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -276,7 +276,7 @@
                             <constraint firstAttribute="trailing" secondItem="VUq-9x-dII" secondAttribute="trailing" constant="166" id="aCL-z8-zIq"/>
                             <constraint firstItem="VUq-9x-dII" firstAttribute="top" secondItem="jR1-3M-foL" secondAttribute="bottom" constant="81" id="cF1-PG-Djf"/>
                             <constraint firstItem="6VX-r5-vVF" firstAttribute="centerX" secondItem="qwB-B2-bu1" secondAttribute="centerX" id="eAE-7t-lJ8"/>
-                            <constraint firstAttribute="trailing" secondItem="ibI-jG-fUG" secondAttribute="trailing" constant="158" id="hUb-Ma-iLr"/>
+                            <constraint firstAttribute="trailing" secondItem="ibI-jG-fUG" secondAttribute="trailing" constant="162" id="hUb-Ma-iLr"/>
                             <constraint firstItem="5hZ-nH-QFx" firstAttribute="bottom" secondItem="qwB-B2-bu1" secondAttribute="bottom" constant="41" id="keX-PF-zsa"/>
                             <constraint firstItem="jR1-3M-foL" firstAttribute="top" secondItem="79Z-O6-nWB" secondAttribute="top" id="mW1-3g-Qgb"/>
                             <constraint firstItem="6VX-r5-vVF" firstAttribute="top" secondItem="5hZ-nH-QFx" secondAttribute="top" constant="79" id="muX-1J-rIh"/>
