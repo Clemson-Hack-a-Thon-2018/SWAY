@@ -251,10 +251,12 @@
                                     <segue destination="iZX-uC-Roi" kind="show" id="1q6-s6-rDG"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BYe-M1-892" customClass="StaticShadowHeaderView3" customModule="SWAY" customModuleProvider="target">
-                                <rect key="frame" x="51" y="77" width="273" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PNv-tA-f7D" customClass="StaticShadowHeaderView3" customModule="SWAY" customModuleProvider="target">
+                                <rect key="frame" x="5" y="71" width="365" height="110"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="m7A-q6-reV"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>

@@ -37,7 +37,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="382" height="100"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJn-ZC-fjX">
+                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SJn-ZC-fjX" customClass="StaticShadowHeaderView2" customModule="SWAY" customModuleProvider="target">
                             <rect key="frame" x="20" y="10" width="342" height="80"/>
                             <subviews>
                                 <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hE-T5-doh">

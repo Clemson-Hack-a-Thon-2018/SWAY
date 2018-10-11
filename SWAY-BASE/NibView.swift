@@ -8,11 +8,11 @@ import UIKit
 /// from a nib file of the same class name in order to
 /// allow reusable views to be created.
 internal protocol NibView where Self: UIView {
-
+    
 }
 
 extension NibView {
-
+    
     /// Initializes the view from a xib
     /// file and configure initial constrains.
     func xibSetup() {
@@ -20,7 +20,7 @@ extension NibView {
         let view = loadViewFromNib()
         addEdgeConstrainedSubView(view: view)
     }
-
+    
     /// Loads a view from it's xib file.
     ///
     /// - Returns: an instantiated view from the Nib file of the same class name.
