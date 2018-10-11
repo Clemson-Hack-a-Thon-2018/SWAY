@@ -34,7 +34,7 @@ class Profile : ViewController {
         
         // name label
     
-        nameLabel?.text = (self.user?.get(key:"firstName"))! + " " + (self.user?.get(key: "lastName"))!
+     //   nameLabel?.text = (self.user!.get(key:"firstName"))
         
         nameLabel?.adjustsFontSizeToFitWidth = true
         

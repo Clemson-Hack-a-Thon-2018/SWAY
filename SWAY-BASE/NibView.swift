@@ -1,5 +1,7 @@
 //Joshua Paulsen - The Rise Collection
 
+
+
 import UIKit
 
 /// A base UIView subclass that instaniates a view
@@ -32,3 +34,4 @@ extension NibView {
     }
     
 }
+
