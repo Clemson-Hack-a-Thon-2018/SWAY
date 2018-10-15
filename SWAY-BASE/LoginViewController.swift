@@ -57,6 +57,8 @@ import UIKit
         func viewDidLoad() {
             super.viewDidLoad()
             
+           
+            
             // Do any additional setup after loading the view.
             //        PPManager.sharedInstance().PPusersvc.addUserListener((userListener: user, error) -> () {
             /*

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E239B5B215D5D490038ABD5 /* StaticShadowHeaderView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */; };
 		6E239B5D215D63040038ABD5 /* StaticShadowHeaderView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */; };
+		6E3D68C82174D7C0007B70D8 /* GradientBkgndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D68C72174D7C0007B70D8 /* GradientBkgndView.swift */; };
 		6E48AEE5216FB99E0086C5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E48AEDC216FB99D0086C5C0 /* Assets.xcassets */; };
 		6E48AEE6216FB99E0086C5C0 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E48AEDD216FB99D0086C5C0 /* KeychainWrapper.swift */; };
 		6E48AEE7216FB99E0086C5C0 /* PPDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E48AEDE216FB99D0086C5C0 /* PPDataService.swift */; };
@@ -66,6 +67,7 @@
 		5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swipeable-View-Stack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swipeable-View-Stack/Pods-Swipeable-View-Stack.release.xcconfig"; sourceTree = "<group>"; };
 		6E239B5A215D5D490038ABD5 /* StaticShadowHeaderView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView2.swift; sourceTree = "<group>"; };
 		6E239B5C215D63040038ABD5 /* StaticShadowHeaderView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView2.xib; sourceTree = "<group>"; };
+		6E3D68C72174D7C0007B70D8 /* GradientBkgndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBkgndView.swift; sourceTree = "<group>"; };
 		6E48AEDC216FB99D0086C5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E48AEDD216FB99D0086C5C0 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		6E48AEDE216FB99D0086C5C0 /* PPDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPDataService.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				6E8EB807215ED0080009FCF4 /* Info.plist */,
 				6E771FB5216265110074870E /* LoginViewController.swift */,
 				6E771FD02162A5F20074870E /* profile.swift */,
+				6E3D68C72174D7C0007B70D8 /* GradientBkgndView.swift */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E771FB6216265110074870E /* LoginViewController.swift in Sources */,
+				6E3D68C82174D7C0007B70D8 /* GradientBkgndView.swift in Sources */,
 				F7FC2D091F9C38F800EEF1CE /* SampleSwipeableCellViewModel.swift in Sources */,
 				F7FC2CFB1F9BDB1400EEF1CE /* CGPoint+SwipeableAdditions.swift in Sources */,
 				6E239B5B215D5D490038ABD5 /* StaticShadowHeaderView2.swift in Sources */,
