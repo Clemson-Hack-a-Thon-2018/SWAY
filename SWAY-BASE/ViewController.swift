@@ -60,8 +60,8 @@ extension ViewController {
                                                   color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "poop"))
 
-        let robot = SampleSwipeableCellViewModel(title: "Tweet Us",
-                                                  subtitle: "@risecollectweet",
+        let robot = SampleSwipeableCellViewModel(title: "Find us on playPORTAL",
+                                                  subtitle: "Rise Studios is our community name!",
                                                   color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "robot"))
 

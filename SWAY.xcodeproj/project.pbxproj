@@ -35,6 +35,8 @@
 		6E8EB800215ECDD10009FCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB7FF215ECDD10009FCF4 /* Default-568h@2x.png */; };
 		6E8EB804215ECF1A0009FCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8EB803215ECF190009FCF4 /* Foundation.framework */; };
 		6E8EB808215ED0080009FCF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB807215ED0080009FCF4 /* Info.plist */; };
+		6E9521342176267D00A1292C /* logoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9521332176267D00A1292C /* logoAction.swift */; };
+		6E95213621762CB300A1292C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95213521762CB300A1292C /* Settings.swift */; };
 		B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */; };
 		F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */; };
 		F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */; };
@@ -95,6 +97,8 @@
 		6E8EB803215ECF190009FCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E8EB807215ED0080009FCF4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Projects/sway/sway/Info.plist; sourceTree = "<group>"; };
 		6E8EB80A215ED5B00009FCF4 /* scribble box demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scribble box demo.ttf"; sourceTree = "<group>"; };
+		6E9521332176267D00A1292C /* logoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoAction.swift; sourceTree = "<group>"; };
+		6E95213521762CB300A1292C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swipeable_View_Stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
@@ -256,6 +260,8 @@
 				6E771FB5216265110074870E /* LoginViewController.swift */,
 				6E771FD02162A5F20074870E /* profile.swift */,
 				6E3D68C72174D7C0007B70D8 /* GradientBkgndView.swift */,
+				6E9521332176267D00A1292C /* logoAction.swift */,
+				6E95213521762CB300A1292C /* Settings.swift */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";
@@ -415,11 +421,13 @@
 				6E8EB7F1215EC8AD0009FCF4 /* MenuVC.swift in Sources */,
 				F7FC2D051F9C355300EEF1CE /* SampleSwipeableCard.swift in Sources */,
 				F7A387191F9BB80100EF5B45 /* SwipeableCardViewContainer.swift in Sources */,
+				6E95213621762CB300A1292C /* Settings.swift in Sources */,
 				F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */,
 				F7A387211F9BB8FB00EF5B45 /* UIView+Constraints.swift in Sources */,
 				6E8EB7EF215EC8AD0009FCF4 /* GameScene.swift in Sources */,
 				6E48AEEA216FB99E0086C5C0 /* PPUserService.swift in Sources */,
 				F7A387071F9BB6E400EF5B45 /* AppDelegate.swift in Sources */,
+				6E9521342176267D00A1292C /* logoAction.swift in Sources */,
 				6E771FD12162A5F20074870E /* profile.swift in Sources */,
 				6E48AEE8216FB99E0086C5C0 /* PPLoginButton.swift in Sources */,
 				6E48AEE7216FB99E0086C5C0 /* PPDataService.swift in Sources */,

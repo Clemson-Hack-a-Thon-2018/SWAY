@@ -12,7 +12,13 @@ import UIKit
 class Profile : ViewController {
     var user:PPUserObject? = nil;
     
-
+    @IBOutlet weak var P: UILabel!
+    @IBOutlet weak var L: UILabel!
+    @IBOutlet weak var A: UILabel!
+    @IBOutlet weak var Y: UILabel!
+    
+ 
+    
     @IBOutlet weak var profilePic: UIImageView!
     
     @IBOutlet weak var profilePicGradient: GradientBkgndView!
@@ -33,7 +39,12 @@ class Profile : ViewController {
         if h != nil && fu != nil && lu != nil {
             label.text = h! + " | " + fu! + " " + lu!
        
-        
+       /*
+            P.font = UIFont(name: "Scribble Box DEMO", size: 23)
+            L.font = UIFont(name: "Scribble Box DEMO", size: 23)
+            A.font = UIFont(name: "Scribble Box DEMO", size: 23)
+            Y.font = UIFont(name: "Scribble Box DEMO", size: 23)
+        */
         /*
         // Logout
         
