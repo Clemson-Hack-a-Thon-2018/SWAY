@@ -34,6 +34,7 @@
 		6E8EB808215ED0080009FCF4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E8EB807215ED0080009FCF4 /* Info.plist */; };
 		6E9521342176267D00A1292C /* logoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9521332176267D00A1292C /* logoAction.swift */; };
 		6E95213621762CB300A1292C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95213521762CB300A1292C /* Settings.swift */; };
+		6E952139217661DE00A1292C /* privacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E952138217661DE00A1292C /* privacyPolicy.swift */; };
 		B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */; };
 		F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */; };
 		F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */; };
@@ -93,6 +94,7 @@
 		6E8EB80A215ED5B00009FCF4 /* scribble box demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scribble box demo.ttf"; sourceTree = "<group>"; };
 		6E9521332176267D00A1292C /* logoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoAction.swift; sourceTree = "<group>"; };
 		6E95213521762CB300A1292C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		6E952138217661DE00A1292C /* privacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyPolicy.swift; sourceTree = "<group>"; };
 		A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swipeable_View_Stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				6E3D68C72174D7C0007B70D8 /* GradientBkgndView.swift */,
 				6E9521332176267D00A1292C /* logoAction.swift */,
 				6E95213521762CB300A1292C /* Settings.swift */,
+				6E952138217661DE00A1292C /* privacyPolicy.swift */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				6E9521342176267D00A1292C /* logoAction.swift in Sources */,
 				6E771FD12162A5F20074870E /* profile.swift in Sources */,
 				6E48AEE8216FB99E0086C5C0 /* PPLoginButton.swift in Sources */,
+				6E952139217661DE00A1292C /* privacyPolicy.swift in Sources */,
 				6E48AEE7216FB99E0086C5C0 /* PPDataService.swift in Sources */,
 				F7FC2CF71F9BC94400EEF1CE /* SwipeableView.swift in Sources */,
 				F7FC2CF91F9BD6D800EEF1CE /* SwipeDirection.swift in Sources */,

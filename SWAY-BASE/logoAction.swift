@@ -5,7 +5,7 @@ import StoreKit
 public class Utils {
     static func openOrDownloadPlayPortal() {
         
-        let storeProductVC = SKStoreProductViewController()
+        _ = SKStoreProductViewController()
         let playPortalURL = URL(string: "playportal://")!
         
         
