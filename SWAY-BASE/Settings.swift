@@ -12,6 +12,7 @@ class SettingsTableTableViewController: UITableViewController {
     
     @IBOutlet weak var cell1: UITableViewCell!
     
+    @IBOutlet weak var goBack: UIButton!
     @IBOutlet weak var cell2: UITableViewCell!
     
     @IBOutlet weak var cell1Header: UITableViewCell!
@@ -19,6 +20,9 @@ class SettingsTableTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        
+  
+        
         
         cell1.textLabel!.text = "Privacy Policy"
         
@@ -46,7 +50,7 @@ class SettingsTableTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+           
         switch (indexPath.section, indexPath.row) {
         case (0,0) :
             self.performSegue(withIdentifier: "privacyPolicy", sender: self)
