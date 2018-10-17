@@ -6,9 +6,13 @@
 //  Copyright © 2018 Joshua Paulsen. All rights reserved.
 //
 
+// Get refrence to profile view controller
+
 import UIKit
 
 @objc class LoginViewController: UIViewController{
+    
+   var profile = Profile()
     
     func userListener(_ user:PPUserObject?, _ authd:Bool) -> Void {
         print("userListener invoked");
@@ -44,10 +48,9 @@ import UIKit
             }
             
             let sb: UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-            let vc:Profile = sb.instantiateViewController(withIdentifier: "Profile") as! Profile
-            vc.user = user
-            vc.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal;
-            
+            let vc = sb.instantiateViewController(withIdentifier: "Home") as! UITabBarController
+            profile.user = user
+            vc.modalTransitionStyle = UIModalTransitionStyle.crossDissolve;
             if let cvc = getCurrentViewController(rvc) {
                 cvc.present(vc, animated:true, completion:nil)
             }

@@ -20,19 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let redirectURI = "sway://redirect"
     let env = "SANDBOX"
     
-    
-    
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        
         PPManager.sharedInstance.addUserListener(handler:loginViewController.userListener(_:_:))
         PPManager.sharedInstance.configure(env:env, clientId:cid, secret:cse, andRedirectURI:redirectURI)
-        
-        
-      
-        
         
         return true
     }

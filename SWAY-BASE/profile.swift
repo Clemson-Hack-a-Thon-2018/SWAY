@@ -9,19 +9,14 @@
 import Foundation
 import UIKit
 
-class Profile : ViewController {
-    var user:PPUserObject? = nil;
+@objc class Profile : UIViewController {
+  
     
-    @IBOutlet weak var P: UILabel!
-    @IBOutlet weak var L: UILabel!
-    @IBOutlet weak var A: UILabel!
-    @IBOutlet weak var Y: UILabel!
+     var user:PPUserObject? = nil;
     
- 
     
+
     @IBOutlet weak var profilePic: UIImageView!
-    
-    @IBOutlet weak var profilePicGradient: GradientBkgndView!
     
     @IBOutlet weak var label: UILabel!
     
@@ -31,6 +26,7 @@ class Profile : ViewController {
        
        // profilePicGradient.layer.cornerRadius = profilePicGradient.frame.height / 2.0
        // profilePicGradient.clipsToBounds = true
+        
         profilePic.layer.cornerRadius = profilePic.frame.height / 2.0
         
         let h = self.user?.get(key: "handle")

@@ -66,7 +66,7 @@
         <!--ViewController-->
         <scene sceneID="g4l-Cc-HWq">
             <objects>
-                <tabBarController title="ViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iZX-uC-Roi" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Home" title="ViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iZX-uC-Roi" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lMd-Kv-kCO">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -221,7 +221,7 @@
         <!--Profile-->
         <scene sceneID="epp-FA-1EP">
             <objects>
-                <viewController storyboardIdentifier="Profile" title="Profile" modalPresentationStyle="pageSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R4d-0o-GOv" customClass="Profile" customModule="SWAY" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profileViewController" title="Profile" modalPresentationStyle="pageSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R4d-0o-GOv" customClass="Profile" customModule="SWAY" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WhB-M3-1kd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -515,10 +515,6 @@
                                     <segue destination="EaZ-kM-awN" kind="show" id="m7z-Zx-Ibx"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="B4F-ip-9dr">
-                                <rect key="frame" x="70" y="276" width="27" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pL8-kQ-WgA">
                                 <rect key="frame" x="43" y="494" width="93" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -538,6 +534,10 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="B4F-ip-9dr">
+                                <rect key="frame" x="69" y="276" width="27" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -695,8 +695,8 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="" image="1" id="VOD-ne-a2V">
-                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-3"/>
-                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-10" maxX="0.0" maxY="-7"/>
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-12" maxX="0.0" maxY="-4"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="notcell1" destination="fTc-B5-lvG" id="VkP-eF-0Tj"/>
