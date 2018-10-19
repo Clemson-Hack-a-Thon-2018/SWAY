@@ -11,11 +11,14 @@ import UIKit
 
 class PrivacyPolicyViewController : UITableViewController {
     
+   
     
     @IBOutlet weak var notcell1: UITableViewCell!
     
+    
     @IBOutlet weak var notcell2: UITableViewCell!
     
+   
     @IBOutlet weak var notcell3: UITableViewCell!
     
     @IBOutlet weak var notcell4: UITableViewCell!

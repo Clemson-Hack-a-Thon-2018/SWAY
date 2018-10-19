@@ -573,10 +573,10 @@
                                                 <rect key="frame" x="16" y="7" width="83" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Back"/>
+                                                <connections>
+                                                    <segue destination="iZX-uC-Roi" kind="show" animates="NO" id="7M1-SR-hY5"/>
+                                                </connections>
                                             </button>
-                                            <connections>
-                                                <segue destination="Lzk-zg-hFL" kind="show" animates="NO" id="PsS-R8-pjW"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -660,14 +660,31 @@
                     <view key="view" contentMode="scaleToFill" id="ABF-UB-Yfk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="info" translatesAutoresizingMaskIntoConstraints="NO" id="Xp8-oU-ozm">
+                                <rect key="frame" x="119" y="55" width="137" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ic5-Ym-Zr0">
+                                <rect key="frame" x="25" y="152" width="325" height="454"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="cEt-Pe-MCo"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="plus-tab" id="SDc-tx-I0y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ct-Fr-th3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2428" y="443"/>
+            <point key="canvasLocation" x="2428" y="442.61083743842369"/>
         </scene>
     </scenes>
     <resources>
@@ -675,6 +692,7 @@
         <image name="check" width="100" height="50"/>
         <image name="grid-tab" width="22" height="19"/>
         <image name="home copy 4" width="26" height="21"/>
+        <image name="info" width="150" height="100"/>
         <image name="logo_small" width="31" height="32"/>
         <image name="msg" width="100" height="50"/>
         <image name="person-tab" width="22" height="22"/>
@@ -685,6 +703,6 @@
         <image name="user" width="100" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PsS-R8-pjW"/>
+        <segue reference="dcj-9M-OqJ"/>
     </inferredMetricsTieBreakers>
 </document>
