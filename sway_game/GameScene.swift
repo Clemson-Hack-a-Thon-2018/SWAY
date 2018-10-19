@@ -11,10 +11,15 @@ class GameScene: SKScene {
     var topLbl = SKLabelNode()
     var btmLbl = SKLabelNode()
     
-    var score = [Int]()
+   public var score = [Int]()
+    
+    
+    
+    
     
     override func didMove(to view: SKView) {
- 
+        
+       
         topLbl = self.childNode(withName: "topLabel") as! SKLabelNode
         btmLbl = self.childNode(withName: "btmLabel") as! SKLabelNode
         ball = self.childNode(withName: "ball") as! SKSpriteNode

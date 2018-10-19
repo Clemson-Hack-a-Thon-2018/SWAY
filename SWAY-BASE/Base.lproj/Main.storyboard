@@ -542,12 +542,17 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="ln6-gZ-5b6"/>
+                        <connections>
+                            <outlet property="scoreLabel" destination="Fjp-7b-vtI" id="l6b-Ui-lGn"/>
+                            <outlet property="timeplayedLabel" destination="oW5-VG-COa" id="ree-cv-SNn"/>
+                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="person-tab" id="01h-5T-XBG"/>
                     <value key="contentSizeForViewInPopover" type="size" width="375" height="770"/>
                     <connections>
                         <outlet property="label" destination="LjR-Im-c4n" id="ZCq-FU-Y2I"/>
                         <outlet property="profilePic" destination="yqq-7T-IJQ" id="tIk-Rg-hTX"/>
+                        <outlet property="timeplayedLabel" destination="oW5-VG-COa" id="d2M-Lg-qA2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sit-af-BUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -695,8 +700,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="" image="1" id="VOD-ne-a2V">
-                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="1"/>
-                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-12" maxX="0.0" maxY="-4"/>
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="-12" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <connections>
                         <outlet property="notcell1" destination="fTc-B5-lvG" id="VkP-eF-0Tj"/>

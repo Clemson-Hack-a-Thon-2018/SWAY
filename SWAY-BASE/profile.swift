@@ -11,10 +11,13 @@ import UIKit
 
 @objc class Profile : UIViewController {
   
+     var gameScene = GameScene()
     
      var user:PPUserObject? = nil;
     
     
+    
+    @IBOutlet weak var timeplayedLabel: UILabel!
 
     @IBOutlet weak var profilePic: UIImageView?
     
@@ -22,8 +25,10 @@ import UIKit
     
     override func viewDidLoad() {
         super.viewDidLoad()
+   
         
-       
+        timeplayedLabel.text = DateFormatter.localizedString(from: Date(),dateStyle: .medium, timeStyle: .medium)
+      
        // profilePicGradient.layer.cornerRadius = profilePicGradient.frame.height / 2.0
        // profilePicGradient.clipsToBounds = true
         
