@@ -11,11 +11,11 @@ import UIKit
 
 @objc class Profile : UIViewController {
   
-     var gameScene = GameScene()
-    
      var user:PPUserObject? = nil;
     
     
+    @IBOutlet weak var Score: UILabel!
+    @IBOutlet weak var timePlayed: UILabel!
     
     @IBOutlet weak var timeplayedLabel: UILabel!
 

@@ -95,6 +95,7 @@
 		6E9521332176267D00A1292C /* logoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoAction.swift; sourceTree = "<group>"; };
 		6E95213521762CB300A1292C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		6E952138217661DE00A1292C /* privacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyPolicy.swift; sourceTree = "<group>"; };
+		6EE1D4D3217A6196009EC952 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swipeable_View_Stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
@@ -256,6 +257,7 @@
 				6E9521332176267D00A1292C /* logoAction.swift */,
 				6E95213521762CB300A1292C /* Settings.swift */,
 				6E952138217661DE00A1292C /* privacyPolicy.swift */,
+				6EE1D4D3217A6196009EC952 /* BridgingHeader.h */,
 			);
 			path = "SWAY-BASE";
 			sourceTree = "<group>";

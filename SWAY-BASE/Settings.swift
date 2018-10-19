@@ -8,27 +8,20 @@
 
 import UIKit
 
-class SettingsTableTableViewController: UITableViewController {
+class SettingsTableTableViewController: UIViewController {
     
     @IBOutlet weak var cell1: UITableViewCell!
     
-    @IBOutlet weak var goBack: UIButton!
     @IBOutlet weak var cell2: UITableViewCell!
-    
-    @IBOutlet weak var cell1Header: UITableViewCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        
-  
-        
         
         cell1.textLabel!.text = "Privacy Policy"
         
         cell2.textLabel!.text = "Manage playPORTAL Account"
         
-        self.tableView.tableFooterView = UIView()
+      
         
     }
     
@@ -36,6 +29,8 @@ class SettingsTableTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    /*
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
@@ -67,7 +62,7 @@ class SettingsTableTableViewController: UITableViewController {
     }
     
     
-    
+    */
     
     
     
