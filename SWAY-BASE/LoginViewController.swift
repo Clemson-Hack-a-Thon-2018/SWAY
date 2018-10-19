@@ -12,7 +12,6 @@ import UIKit
 
 @objc class LoginViewController: UIViewController{
     
-   var profile = Profile()
     
     func userListener(_ user:PPUserObject?, _ authd:Bool) -> Void {
         print("userListener invoked");
@@ -45,6 +44,9 @@ import UIKit
             
             let sb: UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
             let vc = sb.instantiateViewController(withIdentifier: "Home") as! UITabBarController
+            guard let profile = vc.viewControllers?[2] as? Profile else {
+                return
+            }
             profile.user = user
             vc.modalTransitionStyle = UIModalTransitionStyle.flipHorizontal;
             if let cvc = getCurrentViewController(rvc) {
