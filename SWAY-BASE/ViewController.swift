@@ -42,33 +42,32 @@ extension ViewController {
 
         let hamburger = SampleSwipeableCellViewModel(title: "Info",
                                                      subtitle: "Swipe through the cards to read about SWAY",
-                                                     color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                     image: #imageLiteral(resourceName: "anonUser"))
+                                                     color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                     image: #imageLiteral(resourceName: "info"))
 
         let panda = SampleSwipeableCellViewModel(title: "About",
                                                   subtitle: "Play SWAY against AI",
-                                                  color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                  image: #imageLiteral(resourceName: "anonUser"))
+                                                  color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                  image: #imageLiteral(resourceName: "sway"))
 
         let puppy = SampleSwipeableCellViewModel(title: "Developer's",
                                                   subtitle: "The Rise Collection",
-                                                  color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                  image: #imageLiteral(resourceName: "anonUser"))
+                                                  color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                  image: #imageLiteral(resourceName: "riselogo"))
 
         let poop = SampleSwipeableCellViewModel(title: "Rating",
                                                   subtitle: "⭐⭐⭐⭐⭐?",
-                                                  color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                  image: #imageLiteral(resourceName: "anonUser"))
+                                                  color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                  image: #imageLiteral(resourceName: "appstore"))
 
         let robot = SampleSwipeableCellViewModel(title: "Find us on playPORTAL",
                                                   subtitle: "Rise Studios is our community name!",
-                                                  color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                  image: #imageLiteral(resourceName: "anonUser"))
-
+                                                  color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                  image: #imageLiteral(resourceName: "IMG_4146"))
         let clown = SampleSwipeableCellViewModel(title: "The End",
                                                   subtitle: "Enjoy!",
-                                                  color: UIColor(hue: 0.7111, saturation: 0.42, brightness: 0, alpha: 1.0),
-                                                  image: #imageLiteral(resourceName: "anonUser"))
+                                                  color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
+                                                  image: #imageLiteral(resourceName: "clown"))
 
         return [hamburger, panda, puppy, poop, robot, clown]
     }

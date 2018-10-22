@@ -9,38 +9,32 @@
 import Foundation
 import UIKit
 
-class PrivacyPolicyViewController : UITableViewController {
+class PrivacyPolicyViewController : UIViewController {
     
    
-    
-    @IBOutlet weak var notcell1: UITableViewCell!
-    
-    
-    @IBOutlet weak var notcell2: UITableViewCell!
-    
-   
-    @IBOutlet weak var notcell3: UITableViewCell!
-    
-    @IBOutlet weak var notcell4: UITableViewCell!
+    @IBOutlet weak var cell1: UITableViewCell!
+    @IBOutlet weak var cell2: UITableViewCell!
+    @IBOutlet weak var cell3: UITableViewCell!
+    @IBOutlet weak var cell4: UITableViewCell!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
+        cell1.textLabel!.text = "None"
         
-        notcell1.textLabel!.text = "None"
         
-        notcell2.textLabel!.text = "N/A"
+        cell2.textLabel!.text = "N/A"
         
-        notcell3.textLabel!.text = "N/A"
+        cell3.textLabel!.text = "N/A"
         
-        notcell4.textLabel!.text = """
+        cell4.textLabel!.text = """
         The Rise Collection: Charleston, SC
         """
         
-        self.tableView.tableFooterView = UIView()
+       //self.tableView.tableFooterView = UIView()
         
     }
-    
+    /*
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
@@ -55,4 +49,5 @@ class PrivacyPolicyViewController : UITableViewController {
             return "No Header"
         }
     }
+ */
 }

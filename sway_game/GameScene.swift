@@ -46,7 +46,7 @@ class GameScene: SKScene {
         score = [0,0]
         topLbl.text = "\(score[1])"
         btmLbl.text = "\(score[0])"
-        ball.physicsBody?.applyImpulse(CGVector(dx: 10 , dy: 10))
+        ball.physicsBody?.applyImpulse(CGVector(dx: 13 , dy: 15))
     }
 
     func addScore(playerWhoWon : SKSpriteNode){

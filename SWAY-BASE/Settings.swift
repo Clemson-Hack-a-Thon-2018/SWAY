@@ -14,6 +14,9 @@ class SettingsTableTableViewController: UIViewController {
     
     @IBOutlet weak var cell2: UITableViewCell!
     
+    @IBAction func open(_ sender: Any) {
+        openApp.openOrDownloadPlayPortal()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
