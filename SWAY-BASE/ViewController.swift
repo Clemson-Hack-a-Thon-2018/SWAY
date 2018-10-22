@@ -43,7 +43,7 @@ extension ViewController {
         let hamburger = SampleSwipeableCellViewModel(title: "Info",
                                                      subtitle: "Swipe through the cards to read about SWAY",
                                                      color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
-                                                     image: #imageLiteral(resourceName: "info"))
+                                                     image: #imageLiteral(resourceName: "info-1"))
 
         let panda = SampleSwipeableCellViewModel(title: "About",
                                                   subtitle: "Play SWAY against AI",
@@ -53,7 +53,7 @@ extension ViewController {
         let puppy = SampleSwipeableCellViewModel(title: "Developer's",
                                                   subtitle: "The Rise Collection",
                                                   color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
-                                                  image: #imageLiteral(resourceName: "riselogo"))
+                                                  image: #imageLiteral(resourceName: "Card3"))
 
         let poop = SampleSwipeableCellViewModel(title: "Rating",
                                                   subtitle: "⭐⭐⭐⭐⭐?",
@@ -63,11 +63,11 @@ extension ViewController {
         let robot = SampleSwipeableCellViewModel(title: "Find us on playPORTAL",
                                                   subtitle: "Rise Studios is our community name!",
                                                   color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
-                                                  image: #imageLiteral(resourceName: "IMG_4146"))
+                                                  image: #imageLiteral(resourceName: "Card1"))
         let clown = SampleSwipeableCellViewModel(title: "The End",
                                                   subtitle: "Enjoy!",
                                                   color: UIColor(red: 1, green: 1, blue: 1, alpha: 1),
-                                                  image: #imageLiteral(resourceName: "clown"))
+                                                  image: #imageLiteral(resourceName: "titile"))
 
         return [hamburger, panda, puppy, poop, robot, clown]
     }

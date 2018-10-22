@@ -36,6 +36,7 @@
 		6E95213621762CB300A1292C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95213521762CB300A1292C /* Settings.swift */; };
 		6E952139217661DE00A1292C /* privacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E952138217661DE00A1292C /* privacyPolicy.swift */; };
 		6ED9983A217E017800CE0C7F /* openApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED99839217E017800CE0C7F /* openApp.swift */; };
+		6ED9983C217E330A00CE0C7F /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9983B217E330A00CE0C7F /* Swift.gitignore */; };
 		6EE1D4D5217A72C0009EC952 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1D4D4217A72C0009EC952 /* Info.swift */; };
 		B107885340733895A2E45EC1 /* Pods_SWAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */; };
 		F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */; };
@@ -98,6 +99,7 @@
 		6E95213521762CB300A1292C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		6E952138217661DE00A1292C /* privacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyPolicy.swift; sourceTree = "<group>"; };
 		6ED99839217E017800CE0C7F /* openApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openApp.swift; sourceTree = "<group>"; };
+		6ED9983B217E330A00CE0C7F /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
 		6EE1D4D3217A6196009EC952 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		6EE1D4D4217A72C0009EC952 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		A22DD58E21490F8E59BED5CE /* Pods_SWAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +232,7 @@
 		F7A387051F9BB6E400EF5B45 /* SWAY-BASE */ = {
 			isa = PBXGroup;
 			children = (
+				6ED9983B217E330A00CE0C7F /* Swift.gitignore */,
 				F7A387061F9BB6E400EF5B45 /* AppDelegate.swift */,
 				F7A387081F9BB6E400EF5B45 /* ViewController.swift */,
 				F7A387181F9BB80100EF5B45 /* SwipeableCardViewContainer.swift */,
@@ -339,6 +342,7 @@
 			files = (
 				F7FC2D071F9C355C00EEF1CE /* SampleSwipeableCard.xib in Resources */,
 				F7A387111F9BB6E400EF5B45 /* LaunchScreen.storyboard in Resources */,
+				6ED9983C217E330A00CE0C7F /* Swift.gitignore in Resources */,
 				6E8EB808215ED0080009FCF4 /* Info.plist in Resources */,
 				F7A3871D1F9BB87900EF5B45 /* SwipeableCardViewCard.xib in Resources */,
 				6E48AEE5216FB99E0086C5C0 /* Assets.xcassets in Resources */,
