@@ -11,7 +11,8 @@ import UIKit
 import StoreKit
 
 public class openApp {
-    static func openOrDownloadPlayPortal() {
+    static func openOrDownloadPlayPortal<T>(delegate: T) where T: SKStoreProductViewControllerDelegate, T:
+        UIViewController {
         
         let storeProductVC = SKStoreProductViewController()
         let playPortalURL = URL(string: "playportal://")!
@@ -21,7 +22,17 @@ public class openApp {
             UIApplication.shared.openURL(playPortalURL)
         }
         else {
-            print("Cannot Open")
+            let vc = SKStoreProductViewController()
+            let params = [
+                SKStoreProductParameterITunesItemIdentifier: "com.dynepic.iOKids"
+            ]
+            vc.loadProduct(withParameters: params) { success, err in
+                if err != nil {
+                    
+                }
+            }
+            vc.delegate = delegate
+            delegate.present(vc, animated: true, completion: nil)
         }
     }
 }

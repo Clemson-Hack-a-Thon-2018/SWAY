@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import StoreKit
 
-@objc class Profile : UIViewController {
+@objc class Profile : UIViewController, SKStoreProductViewControllerDelegate {
     
   // User Object
 var user:PPUserObject? = nil;
@@ -25,7 +26,7 @@ var user:PPUserObject? = nil;
     
   
     @IBAction func open(_ sender: Any) {
-        openApp.openOrDownloadPlayPortal()
+      openApp.openOrDownloadPlayPortal(delegate: self)
     }
     
    //Outlets
