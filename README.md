@@ -30,7 +30,7 @@
 ## PART 2: <b>playPortal Setup</b>
 
 ### App Overview
-* SWAY was created using Apple's [GameKit](https://developer.apple.com/documentation/gamekit). We wanted to show off, how easy and fun the playPORTAL sdk was to work with!*
+* SWAY was created using Apple's [GameKit](https://developer.apple.com/documentation/gamekit). We wanted to show off, how easy and fun the playPORTAL sdk was to work with!
 
 ### SDK Features Used
 <img src="https://gyazo.com/350b36dce5bf4edf7e6b3a16c75026b3.png = 1500x1500" width="55%">
