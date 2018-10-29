@@ -131,10 +131,6 @@ touch .gitignore
 * ### <b>Got Stuck?</b> If you did on any of the steps listed here are some links to help!
     * Here is another cocoapods installation directions [link](https://iosdevcenters.blogspot.com/2015/12/how-to-install-cocoapods-in-xcode.html)
     * Read [this](https://github.com/joshnh/Git-Commands) to get a refresher on Git commands 
-* ### <b>Step 8:</b> Launch Xcode 
-    * Open up the .xcworkspace file
-    * Select a simulator that runs an iPhone
-    * Press the play button and run SWAY
     
 * ### <b>Got Stuck?</b> If you did on any of the steps listed here are some links to help!
     * Here is another cocoapods installation directions [link](https://iosdevcenters.blogspot.com/2015/12/how-to-install-cocoapods-in-xcode.html)
