@@ -14,7 +14,7 @@ public class openApp {
     static func openOrDownloadPlayPortal<T>(delegate: T) where T: SKStoreProductViewControllerDelegate, T:
         UIViewController {
         
-        let storeProductVC = SKStoreProductViewController()
+            _ = SKStoreProductViewController()
         let playPortalURL = URL(string: "playportal://")!
         
         

@@ -60,7 +60,12 @@ class OAuth2Handler: RequestAdapter, RequestRetrier {
         self.accessToken = accessToken
         self.refreshToken = refreshToken
     }
-
+    
+    // TEST FUNCTION 
+    func invalidateAccessToken() -> Void {
+        self.accessToken = "invalid"
+    }
+    
     func updateTokens(accessToken: String, refreshToken: String) -> Void {
         self.accessToken = accessToken
         self.refreshToken = refreshToken
@@ -81,11 +86,18 @@ class OAuth2Handler: RequestAdapter, RequestRetrier {
     // MARK: - RequestRetrier
     func should(_ manager: SessionManager, retry request: Request, with error: Error, completion: @escaping RequestRetryCompletion) {
         lock.lock() ; defer { lock.unlock() }
-        
+        var shouldRefresh = false
         if let response = request.task?.response as? HTTPURLResponse, response.statusCode == 401 {
+
+            if let response = request.task?.response as? HTTPURLResponse, let errorCode = response.allHeaderFields["errorcode"] as? String {
+                if errorCode == "4010" { shouldRefresh = true }
+                print("errorCode: \(String(describing: errorCode))")   // detailed error
+            }
+            
+            
             requestsToRetry.append(completion)
             
-            if !isRefreshing {
+            if !isRefreshing && shouldRefresh {
                 refreshAccessTokens { [weak self] succeeded, accessToken, refreshToken in
                     guard let strongSelf = self else { return }
                     
@@ -431,4 +443,62 @@ class PPWebApi {
         print("Empty Bucket is not implemented!")
         completion(true, nil, nil)
     }
+    
+    
+    // -----------------------------------------------------------------------------
+    // Leaderboard API
+    // -----------------------------------------------------------------------------
+    func getLeaderboard(page: Int, limit: Int, categories: String, completion: @escaping PPDataCompletion) { 
+        let b = baseUrl + "/leaderboard/v1"
+        let p = "?page=" + String(page)
+        let l = "&limit=" + String(limit)
+        let c = "&categories=" +  categories
+        let urlString = b + p + l + c
+        
+        let headers: HTTPHeaders = [
+            "Authorization": "Bearer " + self.at,
+            "Accept": "application/json"
+        ]
+        
+        sessionManager.request(urlString, headers: headers).validate(statusCode: 200..<300).responseJSON { response  in
+            switch response.result {
+            case .success:
+                print("Validation Successful")
+                if let json = response.result.value {
+                    completion(true, response, json)
+                } else {
+                    completion(false, nil, nil)
+                }
+            case .failure(let error):
+                print(error)
+                completion(false, nil, nil)
+            }
+        }
+    }
+    
+    func updateLeaderboard(score: NSNumber, categories: [String], completion: @escaping PPDataCompletion) {
+        let urlString = baseUrl +  "/leaderboard/v1"
+        let url = URL(string: urlString)
+        var urlRequest = URLRequest(url: url!)
+        urlRequest.httpMethod = "POST"
+        let parameters = ["score": score, "categories": categories] as [String : Any]
+        do {
+            urlRequest.httpBody = try JSONSerialization.data(withJSONObject: parameters, options: [])
+        } catch {
+        }
+        
+        urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        urlRequest.setValue("Bearer " + self.at, forHTTPHeaderField: "Authorization")
+        
+        sessionManager.request(urlRequest).validate(statusCode: 200..<300).responseJSON { response  in
+            switch response.result {
+            case .success:
+                completion(true, response, response.value)
+            case .failure(let error):
+                print("writeBucket error: \( error )" )
+                completion(false, nil, nil)
+            }
+        }
+    }
+
 } // end class

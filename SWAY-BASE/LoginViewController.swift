@@ -9,7 +9,6 @@
 // Get refrence to profile view controller
 
 import UIKit
-
 @objc class LoginViewController: UIViewController{
     
     

@@ -13,7 +13,7 @@ import StoreKit
 @objc class Profile : UIViewController, SKStoreProductViewControllerDelegate {
     
   // User Object
-var user:PPUserObject? = nil;
+var user:PPUserObject! = nil;
     
     
   // Logout
@@ -39,9 +39,9 @@ var user:PPUserObject? = nil;
         super.viewDidLoad()
         profilePic?.layer.cornerRadius = (profilePic?.frame.height)! / 2.0
    
-        let h = self.user?.get(key: "handle")
-        let fu = self.user?.get(key:"firstName")
-        let lu = self.user?.get(key:"lastName")
+        let h = self.user?.uo.handle
+        let fu = self.user?.uo.firstName
+        let lu = self.user?.uo.lastName
         if h != nil && fu != nil && lu != nil {
             
         label?.text = h! + " | " + fu! + " " + lu!
@@ -62,9 +62,9 @@ var user:PPUserObject? = nil;
        
         profilePic?.layer.cornerRadius = (profilePic?.frame.height)! / 2.0
         label?.text = "fdsajfidsaojfidsoa"
-        let h = self.user?.get(key: "handle")
-        let fu = self.user?.get(key:"firstName")
-        let lu = self.user?.get(key:"lastName")
+        let h = self.user?.uo.handle
+        let fu = self.user?.uo.firstName
+        let lu = self.user?.uo.lastName
         if h != nil && fu != nil && lu != nil {
             label?.text = h! + " | " + fu! + " " + lu!
             

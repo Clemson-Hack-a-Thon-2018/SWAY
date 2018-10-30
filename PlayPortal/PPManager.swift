@@ -30,15 +30,17 @@ class PPManager {
     private var cid:String = ""
     private var cse:String
     private var redir:String
+    private var isNewBoot = false
     
     var userListener:(_ user: PPUserObject?, _ isAuthd: Bool) -> Void
     
-    var PPusersvc: PPUserService!
+    var PPusersvc: PPUserService
     var PPwebapi: PPWebApi!
-    var PPdatasvc: PPDataService!
+    var PPdatasvc: PPDataService
     
     //    var keychain: KeychainWrapper = KeychainWrapper()
     let keychain = KeychainSwift()
+    
     
     public init() {
         env = "SANDBOX"
@@ -50,7 +52,6 @@ class PPManager {
         //    keychain = KeychainWrapper()
         PPusersvc = PPUserService(keychain:keychain)
         PPdatasvc = PPDataService()
-        
         
         if keychain.get("apns_device_token") != nil { } else {apnsDeviceToken = ""}
         if keychain.get("refresh_token") != nil { } else {refreshToken = ""}
@@ -67,7 +68,7 @@ class PPManager {
         return instance
     }()
     
-    
+    func newInstall() -> Void { PPManager.sharedInstance.isNewBoot = true }
     func getApiUrlBase() -> String { return PPManager.sharedInstance.apiUrlBase }
     func getClientId() -> String { return PPManager.sharedInstance.cid }
     func getRedirectURI() -> String { return PPManager.sharedInstance.redir }
@@ -103,6 +104,14 @@ class PPManager {
             //            keychain = KeychainWrapper()
             //            keychain = KeychainSwift()
             PPusersvc = PPUserService(keychain:keychain)
+            
+            if(isNewBoot) {
+                print("new boot is true")
+                keychain.set("", forKey: "refresh_token")
+                keychain.set("", forKey: "access_token")
+                isNewBoot = false
+            }
+            
             PPdatasvc = PPDataService()
             
             if let a = keychain.get("apns_device_token") {
@@ -137,16 +146,20 @@ class PPManager {
             PPManager.sharedInstance.redir = andRedirectURI;
             
             PPManager.sharedInstance.isAuthenticated() { isAuthd in
-                PPManager.sharedInstance.getProfileAndBucket { error in
-                    if(!error.isEmpty) { print("ERROR: configure \(error)") }
-                    PPManager.sharedInstance.PPusersvc.getProfile {  succeeded, response, user in
-                        if(!succeeded) {
-                            print("Error:", response.debugDescription)
-                            PPManager.sharedInstance.userListener(nil, isAuthd)
-                        } else {
-                            PPManager.sharedInstance.userListener(user, isAuthd)
+                if isAuthd {
+                    PPManager.sharedInstance.getProfileAndBucket { error in
+                        if(!error.isEmpty) { print("ERROR: configure \(error)") }
+                        PPManager.sharedInstance.PPusersvc.getProfile {  succeeded, response, user in
+                            if(!succeeded) {
+                                print("Error:", response.debugDescription)
+                                PPManager.sharedInstance.userListener(nil, isAuthd)
+                            } else {
+                                PPManager.sharedInstance.userListener(user, isAuthd)
+                            }
                         }
                     }
+                } else {
+                    PPManager.sharedInstance.userListener(nil, false)
                 }
             }
         }
@@ -159,7 +172,7 @@ class PPManager {
                 handler(response.debugDescription);
             } else {
                 // attempt to create / open this user's private data storage
-                if let id = PPManager.sharedInstance.PPusersvc.user.u["userId"] {
+                if let id = PPManager.sharedInstance.PPusersvc.user.uo.userId {
                     PPManager.sharedInstance.PPdatasvc.openBucket(bucketName:PPManager.sharedInstance.PPusersvc.getMyDataStorageName(), users:[id], isPublic:false) { succeeded, response, img in
                             print("getProfileAndBucket openBucket (my appData) succeeded: \( succeeded)" )
                         }
@@ -257,6 +270,8 @@ class PPManager {
     
     func isAuthenticated(handler: @escaping (_ isAuthd:Bool) -> Void) {
         if(allTokensExist()) { // force a refresh
+            let oh = PPManager.sharedInstance.PPwebapi.oauthHandler
+            print()
             PPManager.sharedInstance.PPwebapi.oauthHandler.refreshAccessTokens { succeeded, accessToken, refreshToken in
                 if let accessToken = accessToken, let refreshToken = refreshToken {
                     PPManager.sharedInstance.keychain.set(accessToken, forKey: "access_token")
