@@ -51,7 +51,7 @@
   	* In the left navigation bar click on the <b>Apps</b> tab.
    	* In the <b>Apps</b> panel, click on the "+ Add App" button.
   	* Add an icon (example image [here](https://github.com/playportal-studio/AirTime/blob/master/AirTime/Assets.xcassets/AppIcon.appiconset/ItunesArtwork%402x.png)).
-	* Enter a unique app <b>name</b> (you cannot use the name AirTime because it is already in use).
+	* Enter a unique app <b>name</b> (you cannot use the name SWAY because it is already in use).
 	* Enter a description for your app.
   	* For "Environment" leave "Sandbox" selected.
  	* Click "Add App"
@@ -131,6 +131,7 @@
 	* Go back to [playPORTAL Studio](https://studio.playportal.io)
 	* Click on Sandbox
 	* Generate a few users
+	
 	Tip: You can create kids by creating a Parent and adding a Kid
 		
 	<img src="https://gyazo.com/94f91ea85657586a11baa0c61182e531.png = 1500x1500" width="55%">
