@@ -20,7 +20,7 @@
     * It's underlying purpose was to be a "demo app" for the [2018 Clemson Hackathon](http://www.clemson.edu/centers-institutes/spiro/service/hackathon.html)
 
 * ### <b>Info:</b> Important to read this all...
-    * <i>PART 2:</i> Walks you through playPORTAL integration, it should be fairly straightforward.
+    * <b>PART 2:</b> Walks you through playPORTAL integration, it should be fairly straightforward.
     * Make sure to read it all, to ensure sucsess! If you get stuck at anytime there are also [this](https://studio.playportal.io/api/sdk/ios) detailed documentation to look at.
 
 * ### <b>Other:</b> The Rise Collection.
@@ -73,7 +73,7 @@
 	* Open teminal and clone repository to Desktop
     ```
     cd Desktop
-    git clone https://github.com/playportal-studio/AirTime.git
+    git clone https://github.com/TheRiseCollection/sway.git
     ```
 * ### <b>Step 6:</b> Install [Cocopods](https://cocoapods.org/) 
     * To install 
