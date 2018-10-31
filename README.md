@@ -86,7 +86,7 @@
     pod install
     ```
 * ### <b>Step 7:</b> Ensure AirTime Compiles
-    * Open up the AirTime.xcworkspace file
+    * Open up the sway.xcworkspace file
     * Select a simulator or device that runs an iPhone and Apple Watch together 
     * Press the play button to run AirTime
 
@@ -97,7 +97,7 @@
 	* Create a .gitignore file 
 	
 	```
-	cd AirTime
+	cd sway
 	touch .gitignore
 	```
 	
