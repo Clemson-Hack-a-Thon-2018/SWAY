@@ -15,10 +15,7 @@ let loginViewController: LoginViewController = LoginViewController()
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    let cid = "iok-cid-15088a4a71dcffe0b311b6e7fcb48261b527035352d93858"
-    let cse = "iok-cse-4e484f0e1333c46428435ff1e75b07e833e4f27d7f397525"
-    let redirectURI = "sway://redirect"
-    let env = "SANDBOX"
+   
     
     var window: UIWindow?
     
