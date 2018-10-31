@@ -105,10 +105,10 @@
 	* Copy your <b>Client ID</b> and your <b>Client Secret</b> from playPORTAL Studio
 	* Define your keys inside the Keys.swift using the format below
 		```
-		 let cid = "CLIENT ID GOES HERE"
-    		 let cse = "CLIENT SECRET GOES HERE"
-		 let redirectURI = "REDIRECT URL GOES HERE"
-                 let env = "SANDBOX"
+		let cid = "CLIENT ID GOES HERE"
+    		let cse = "CLIENT SECRET GOES HERE"
+		let redirectURI = "REDIRECT URL GOES HERE"
+                let env = "SANDBOX"
 		```
 * ### <b>Step 8.2:</b>Open up the project in a different IDE
 	* To edit your .gitignore open the project in either [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)
