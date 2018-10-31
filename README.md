@@ -56,11 +56,11 @@
   	* For "Environment" leave "Sandbox" selected.
  	* Click "Add App"
 	
-<img src="https://gyazo.com/123d7d09cea8bb8cfc3d763709ddc8ba.png = 1500x1500" width="65%">
+<img src="https://gyazo.com/2e8580acdd0b8a7b0d42e0b21fb95f9a.png = 1500x1500" width="65%">
 
 * ### <b>Step 3:</b> Setup your permission scopes.
 	* Add permission scopes for each of the SDK features used in the app. Reference the image below.
-<img src="https://gyazo.com/93c92748a1f507be765aa8c8c2d41fae.png = 1500x1500" width="55%">
+<img src="https://gyazo.com/350b36dce5bf4edf7e6b3a16c75026b3.png = 1500x1500" width="55%">
 
 * ### <b>Step 4:</b> Generate your Client ID and Client Secret
 
@@ -82,7 +82,7 @@
     ```
     * After cocoapods is installed, follow these steps
     ```
-    cd AirTime
+    cd sway
     pod install
     ```
 * ### <b>Step 7:</b> Ensure AirTime Compiles
@@ -133,7 +133,7 @@
 	* Generate a few users
 	Tip: You can create kids by creating a Parent and adding a Kid
 		
-	<img src="https://gyazo.com/76ec65dadd301ae7512304e80979323f.png = 1500x1500" width="55%">
+	<img src="https://gyazo.com/94f91ea85657586a11baa0c61182e531.png = 1500x1500" width="55%">
 	
 * ### <b>Step 9:</b> Develop! 
 	* If you made it this far, great you are ready!!!
