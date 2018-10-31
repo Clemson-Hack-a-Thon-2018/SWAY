@@ -90,7 +90,7 @@
     * Select a simulator or device that runs an iPhone and Apple Watch together 
     * Press the play button to run AirTime
 
-* ### <b>Step 8:</b> Link playPORTAL Studio with AirTime
+* ### <b>Step 8:</b> Link playPORTAL Studio with SWAY
 	
 * ### <b>Step 8.1:</b> Insert Keys In An App File To Enable User Login
 	* The Client ID, & Secrets tied to your application <b>NEED</b> to be hidden
